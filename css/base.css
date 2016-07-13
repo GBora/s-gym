@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  background: #CCC;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
