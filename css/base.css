@@ -1,6 +1,11 @@
 html {
   box-sizing: border-box;
   background: #CCC;
+  min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
 }
 
 *,
@@ -12,3 +17,4 @@ html {
 .no-margin {
     margin: 0 !important;
 }
+
