@@ -18,3 +18,28 @@ body {
     margin: 0 !important;
 }
 
+.col-left {
+	width: 50%;
+	float: left;
+}
+
+.col-right {
+	width: 50%;
+	float: right;
+}
+
+.margin-bottom-50 {
+	margin-bottom: 50px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+

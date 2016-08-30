@@ -1,0 +1,28 @@
+h1.courses-title {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.course-container {
+	width: 80%;
+	margin: 50px auto;
+	background: rgb(255,255,255);
+	padding: 25px;
+	border-radius: 25px;
+}
+
+.course-container > h2 {
+	text-align: center;
+}
+
+.course-container > img {
+	width: 100%;
+	border-radius: 25px;
+}
+
+.course-container > .course-price {
+	font-weight: bold;
+	padding-top: 25px;
+	color: rgb(30, 178, 61);
+	font-size: 20px;
+}

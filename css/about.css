@@ -1,0 +1,58 @@
+.gym-map-container {
+	margin-top: 50px;
+	float: right;
+	width: 50%;
+}
+
+.gym-map-legend {
+	margin: 12px 0 0 0;
+	width: 500px;
+}
+
+.gym-map-button {
+	display: block;
+	width: 240px;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid rgb(30, 178, 61);
+	border-radius: 7px;
+	text-decoration: none;
+	color: rgb(30, 178, 61);
+	background: white;
+}
+
+.gym-directions {
+	margin-right: 10px;
+}
+
+.gym-bird-eye {
+	margin-left: 10px;
+}
+
+.gym-map-button:hover {
+	color: white;
+	background: rgb(30, 178, 61);
+}
+
+.gym-about-text {
+	margin-top: 50px;
+	float: left;
+	width: 50%;
+	padding-right: 50px;
+}
+
+.row {
+	clear: both;
+}
+
+h1 {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.open-hours {
+	font-weight: bold;
+}
+
+

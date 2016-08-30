@@ -1,0 +1,34 @@
+.package-page-title {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.package-container {
+	width: 80%;
+	margin: 50px auto;
+	background: rgb(255,255,255);
+	padding: 25px;
+	border-radius: 25px;
+}
+
+.package-container > h2 {
+	text-align: center;
+}
+
+.package-container > img {
+	width: 100%;
+	border-radius: 25px;
+}
+
+.package-container > .package-price {
+	font-weight: bold;
+	padding-top: 25px;
+	color: rgb(30, 178, 61);
+	font-size: 20px;
+}
+
+.package-container  a {
+	text-decoration: none;
+	color: rgb(30, 178, 61);
+	font-weight: bold;
+}
