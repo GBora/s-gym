@@ -16,8 +16,11 @@
 }
 
 .package-container > img {
-	width: 100%;
+/*	width: 100%;*/
 	border-radius: 25px;
+	max-height: 250px;
+	float: left;
+	padding-right: 25px;
 }
 
 .package-container > .package-price {
@@ -31,4 +34,17 @@
 	text-decoration: none;
 	color: rgb(30, 178, 61);
 	font-weight: bold;
+}
+
+.package-container  li {
+	display: inline-block;
+	border: 2px solid rgb(30, 178, 61);
+	border-radius: 5px;
+	padding: 5px 5px;
+	margin-left: 0;
+	margin-right: 15px'
+}
+
+.package-container ul {
+	padding-left: 0px;
 }
