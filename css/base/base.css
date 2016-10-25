@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 html {
   box-sizing: border-box;
   background: #CCC;
   min-height: 100vh;
+  font-family: 'Lato', sans-serif !important;
 }
 
 body {
@@ -40,6 +43,11 @@ body {
 
 .cf:after {
     clear: both;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
 
 

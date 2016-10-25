@@ -1,0 +1,64 @@
+.first-page-slide {
+	width: 1400px;
+	height: 1050px;
+}
+
+.section-main {
+	height: 100vh;
+	width: 100vw;
+}
+
+.white-section {
+	background-color: white;
+}
+
+.second-section {
+	padding: 50px;
+}
+
+.second-section  h2{
+	text-align: center;
+	font-weight: bold;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.gym-mp-icon {
+	font-size: 100px;
+	color: #42caad;
+	border: 3px solid #42caad;
+	border-radius: 50%;
+	width: 100px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.mp-card {
+	width: 230px;
+	height: 350px;
+	border: 5px solid #42caad;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+}
+
+.middle-card {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.middle-card i {
+	font-size: 75px;
+	color: #42caad;
+	width: 75px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.card-wrapper {
+	margin: 0 auto;
+	width: 800px;
+}
+
