@@ -6,47 +6,49 @@
     -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	
+	
+	.gym-logo {
+		display: inline-block;
+		height: 100%;
+		font-size: 30px;
+		padding-top: 15px;
+		color: @green;
+		text-transform: uppercase;
+	}
+	
+	.gym-nav {
+	  display: inline-block;
+	  float: right;
+
+		a {
+			text-decoration: none;
+			color: #000;
+			font-size: 20px;
+		}
+
+		li {
+			display: inline-block;
+			height: 60px;
+			padding-top: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+	
+	.gym-nav-links {
+		height: 60px;
+	}
 }
 
-.gym-logo {
-    display: inline-block;
-    height: 100%;
-    font-size: 30px;
-    padding-top: 15px;
-    color: #42caad;
-    text-transform: uppercase;
-}
-
-.gym-nav {
-  display: inline-block;
-  float: right;
-}
-
-.gym-nav-links {
-    height: 60px;
-}
-
-.gym-nav li {
-    display: inline-block;
-    height: 60px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.gym-nav a {
-    text-decoration: none;
-    color: #000;
-    font-size: 20px;
-}
 
 .gym-nav li:hover {
-    border-bottom: 5px solid #42caad;
-    background: #CCC;
+    border-bottom: 5px solid @green;
+    background: @gray;
 }
 
 a.selected-nav{
-    color: #42caad;
+    color: @green;
     font-weight: 700;
 }
 
