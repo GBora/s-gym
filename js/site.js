@@ -9,4 +9,6 @@ $(document).ready(function(){
       autoplaySpeed: 1000
   });
 });
+
+console.log('checking github priviligies');
 	
