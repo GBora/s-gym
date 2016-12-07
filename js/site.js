@@ -10,5 +10,5 @@ $(document).ready(function(){
   });
 });
 
-console.log('checking github priviligies');
+console.log('!!!');
 	
